@@ -69,6 +69,9 @@ func ParseWith(data []byte, opt Options) (*File, error) {
 	// ---- 各块处理（对应 read.sorparse 的按 order 派发）----
 	for _, b := range f.Blocks {
 		var err error
+		// 对应 pyOTDR 各处理器的 fh.seek(startpos)：顺序文件下是无操作，
+		// 异常文件则跳到块声明的位置（跳过的字节不参与 CRC，与 pyOTDR 一致）。
+		r.seek(int(b.Pos))
 		switch b.Name {
 		case "GenParams":
 			err = genparams(r, f)

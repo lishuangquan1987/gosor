@@ -71,30 +71,30 @@ type SupParams struct {
 
 // FxdParams 固定参数。数值字段的缩放与 pyOTDR fxdparams.py 一致。
 type FxdParams struct {
-	DateTimeSec              int64   // Unix 秒（UTC）
-	Unit                     string  // "mt"/"km"/"mi"/"kf"
-	WavelengthNM             float64 // uint16 * 0.1
-	AcquisitionOffset        int32
-	AcquisitionOffsetDist    int32
-	NumPulseWidthEntries     uint16
-	PulseWidthNS             uint16
-	SampleSpacingUS          float64 // uint32 * 1e-8
-	NumDataPoints            uint32
-	Index                    float64 // uint32 * 1e-5（经 6 位字符串往返，与 pyOTDR 位级一致）
-	BC                       float64 // int16 * -0.1
-	NumAverages              uint32
-	AveragingTimeSec         float64 // uint16 * 0.1
-	RangeKM                  float64 // 原始字段 uint32 * 2e-5
-	AcquisitionRangeDist     int32
-	FrontPanelOffset         int32
-	NoiseFloorLevel          uint16
-	NoiseFloorScalingFactor  int16
-	PowerOffsetFirstPoint    uint16
-	LossThr                  float64 // uint16 * 0.001
-	ReflThr                  float64 // int16 * -0.001
-	EOTThr                   float64 // uint16 * 0.001
-	TraceType                string  // "ST"/"RT"/"DT"/"RF"
-	X1, Y1, X2, Y2           int32
+	DateTimeSec             int64   // Unix 秒（UTC）
+	Unit                    string  // "mt"/"km"/"mi"/"kf"
+	WavelengthNM            float64 // uint16 * 0.1
+	AcquisitionOffset       int32
+	AcquisitionOffsetDist   int32
+	NumPulseWidthEntries    uint16
+	PulseWidthNS            uint16
+	SampleSpacingUS         float64 // uint32 * 1e-8
+	NumDataPoints           uint32
+	Index                   float64 // uint32 * 1e-5（经 6 位字符串往返，与 pyOTDR 位级一致）
+	BC                      float64 // int16 * -0.1
+	NumAverages             uint32
+	AveragingTimeSec        float64 // uint16 * 0.1
+	RangeKM                 float64 // 原始字段 uint32 * 2e-5
+	AcquisitionRangeDist    int32
+	FrontPanelOffset        int32
+	NoiseFloorLevel         uint16
+	NoiseFloorScalingFactor int16
+	PowerOffsetFirstPoint   uint16
+	LossThr                 float64 // uint16 * 0.001
+	ReflThr                 float64 // int16 * -0.001
+	EOTThr                  float64 // uint16 * 0.001
+	TraceType               string  // "ST"/"RT"/"DT"/"RF"
+	X1, Y1, X2, Y2          int32
 
 	// 折射率修正（pyOTDR fxdparams._process_fields 末尾 corrections）：
 	// dx = sample_spacing * Sol / IOR（km）；resolution = dx * 1000（米/点）；

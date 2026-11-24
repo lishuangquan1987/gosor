@@ -1,0 +1,10 @@
+# 编译产物
+*.exe
+*.test
+dist/
+build/
+
+# 编辑器
+.idea/
+.vscode/
+*.swp

@@ -7,7 +7,7 @@ import (
 	"os"
 	"time"
 
-	"gosor/sor"
+	"github.com/lishuangquan1987/gosor/sor"
 )
 
 func main() {
