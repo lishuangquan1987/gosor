@@ -1,0 +1,188 @@
+{
+        "Cksum": {
+                "checksum": 36577,
+                "checksum_ours": 11018,
+                "match": false
+        },
+        "DataPts": {
+                "_datapts_params": {
+                        "offset": "STV",
+                        "xscaling": 1
+                },
+                "max before offset": 63.999,
+                "min before offset": 18.014,
+                "num data points": 62677,
+                "num data points 2": 62677,
+                "num traces": 1,
+                "scaling factor": 1.0
+        },
+        "FxdParams": {
+                "BC": "-82.60 dB",
+                "EOT thr": "5.000 dB",
+                "X1": 0,
+                "X2": 0,
+                "Y1": 0,
+                "Y2": 0,
+                "acquisition offset": 0,
+                "acquisition offset distance": 0,
+                "acquisition range distance": 49982644,
+                "averaging time": "0 sec",
+                "date/time": "Mon Nov 23 14:16:47 2026 (1795443407 sec)",
+                "front panel offset": 0,
+                "index": "1.468000",
+                "loss thr": "0.020 dB",
+                "noise floor level": 41674,
+                "noise floor scaling factor": 1000,
+                "num averages": 276,
+                "num data points": 62677,
+                "number of pulse width entries": 1,
+                "power offset first point": 0,
+                "pulse width": "100 ns",
+                "range": 79.99868822405485,
+                "refl thr": "-65.535 dB",
+                "resolution": 1.2763643477520437,
+                "sample spacing": "0.00625 usec",
+                "trace type": "ST[standard trace]",
+                "unit": "mt (meters)",
+                "wavelength": "1626.0 nm"
+        },
+        "GenParams": {
+                "build condition": "BC (as-built)",
+                "cable ID": " ",
+                "cable code/fiber type": " ",
+                "comments": " ",
+                "fiber ID": "Fiber4",
+                "fiber type": "G.652 (standard SMF)",
+                "language": "EN",
+                "location A": " ",
+                "location B": " ",
+                "operator": " ",
+                "user offset": "0",
+                "user offset distance": "0",
+                "wavelength": "1625 nm"
+        },
+        "KeyEvents": {
+                "Summary": {
+                        "ORL": 24.586,
+                        "ORL finish": 19.139073,
+                        "ORL start": 0.0,
+                        "loss end": 19.139073,
+                        "loss start": 0.0,
+                        "total loss": 4.548
+                },
+                "event 1": {
+                        "comments": " ",
+                        "distance": "0.000",
+                        "end of curr": "0.354",
+                        "end of prev": "0.000",
+                        "peak": "0.011",
+                        "refl loss": "-28.357",
+                        "slope": "0.000",
+                        "splice loss": "0.000",
+                        "start of curr": "0.000",
+                        "start of next": "5.353",
+                        "type": "2F9999LS {auto} multiple"
+                },
+                "event 2": {
+                        "comments": " ",
+                        "distance": "19.139",
+                        "end of curr": "20.433",
+                        "end of prev": "14.140",
+                        "peak": "19.153",
+                        "refl loss": "-19.256",
+                        "slope": "0.238",
+                        "splice loss": "0.000",
+                        "start of curr": "19.139",
+                        "start of next": "21.087",
+                        "type": "2E9999LS {auto} multiple"
+                },
+                "event 3": {
+                        "comments": " ",
+                        "distance": "38.282",
+                        "end of curr": "38.333",
+                        "end of prev": "33.282",
+                        "peak": "38.296",
+                        "refl loss": "-31.216",
+                        "slope": "0.000",
+                        "splice loss": "0.000",
+                        "start of curr": "38.282",
+                        "start of next": "43.333",
+                        "type": "1F9999LS {auto} reflection"
+                },
+                "num events": 3
+        },
+        "SupParams": {
+                "OTDR": " ",
+                "OTDR S/N": " ",
+                "module": "FTBx-750D-SM3-EA",
+                "module S/N": "2043282",
+                "other": " ",
+                "software": " ",
+                "supplier": " "
+        },
+        "blocks": {
+                "Cksum": {
+                        "name": "Cksum",
+                        "order": 7,
+                        "pos": 215183,
+                        "size": 8,
+                        "version": "2.00"
+                },
+                "DataPts": {
+                        "name": "DataPts",
+                        "order": 4,
+                        "pos": 508,
+                        "size": 125374,
+                        "version": "2.00"
+                },
+                "ExfoAdditionalInfo": {
+                        "name": "ExfoAdditionalInfo",
+                        "order": 5,
+                        "pos": 125882,
+                        "size": 25,
+                        "version": "2.00"
+                },
+                "ExfoNewProprietaryBlock 01": {
+                        "name": "ExfoNewProprietaryBlock 01",
+                        "order": 6,
+                        "pos": 125907,
+                        "size": 89276,
+                        "version": "2.00"
+                },
+                "FxdParams": {
+                        "name": "FxdParams",
+                        "order": 2,
+                        "pos": 250,
+                        "size": 92,
+                        "version": "2.00"
+                },
+                "GenParams": {
+                        "name": "GenParams",
+                        "order": 0,
+                        "pos": 160,
+                        "size": 45,
+                        "version": "2.00"
+                },
+                "KeyEvents": {
+                        "name": "KeyEvents",
+                        "order": 3,
+                        "pos": 342,
+                        "size": 166,
+                        "version": "2.00"
+                },
+                "SupParams": {
+                        "name": "SupParams",
+                        "order": 1,
+                        "pos": 205,
+                        "size": 45,
+                        "version": "2.00"
+                }
+        },
+        "filename": "A1R06221BA0_1625.sor",
+        "format": 2,
+        "mapblock": {
+                "nblocks": 8,
+                "nbytes": 160
+        },
+        "version": "2.00"
+}
